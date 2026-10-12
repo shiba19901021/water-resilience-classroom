@@ -1,0 +1,9 @@
+/* QR entry uses the existing A2 tokens. No game or teacher-preview geometry changes. */
+#qr-join-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 136px;gap:16px;align-items:center;padding:14px 16px;background:var(--card);border:1px solid var(--earth);border-radius:var(--radius)}
+.qr-join-details{min-width:0;display:grid;gap:9px}.qr-join-details label{display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.qr-join-actions{display:flex;flex-wrap:wrap;gap:8px}#qr-join-card button{min-height:44px;align-self:initial}#qr-join-card .note{font-size:12px;line-height:1.6;margin:0}
+#qr-small{margin:0;background:#fff;padding:2px;line-height:0}#qr-small svg{display:block;width:132px;height:132px;max-width:100%}
+#qr-dialog{width:min(620px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:24px;text-align:center;background:var(--card);color:var(--ink);border:1px solid var(--earth);border-radius:var(--radius);box-shadow:var(--shadow)}
+#qr-dialog::backdrop{background:#26382fcc}#qr-dialog h2{font-size:20px;margin:0 0 16px;line-height:1.5}#qr-large{max-width:min(440px,60dvh);margin:0 auto;background:#fff}#qr-large svg{display:block;width:100%;height:auto}#qr-dialog-code{font-size:26px;font-weight:700;color:var(--forest-deep);margin:16px 0;letter-spacing:.06em}#qr-dialog-close{min-width:120px;min-height:44px}
+#qr-join-hint{background:var(--forest-soft);border:1px solid var(--earth);border-radius:10px;padding:10px 12px;font-size:13px;line-height:1.7}
+@media(max-width:560px){#qr-join-card{grid-template-columns:minmax(0,1fr);padding:12px}#qr-small{justify-self:center}#qr-dialog{padding:18px}#qr-dialog h2{font-size:18px}#qr-dialog-code{font-size:23px}#network-entry button{margin-bottom:8px}}

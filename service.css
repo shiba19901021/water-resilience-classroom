@@ -1,0 +1,3 @@
+.tile.service-area:after{content:'';position:absolute;inset:2px;background:#1792ca28;box-shadow:inset 0 0 0 2px #208bbb;pointer-events:none;border-radius:3px;z-index:1}
+.tile.service-source:after{background:#1792ca48}.tile.service-overlap:after{background:#155b9c60}.tile.service-origin:after{box-shadow:inset 0 0 0 3px #143d84}.tile.service-uncovered:before{content:'';position:absolute;inset:3px;border:2px dashed #974c17;pointer-events:none;z-index:2;border-radius:3px}
+#pollution-service-panel{padding:7px;border:1px solid #8cb4bc;border-radius:7px;background:#f0f8fa;font-size:12px;overflow-wrap:anywhere}#pollution-service-panel p{margin:5px 0;line-height:1.55}#pollution-service-panel small{font-size:11px;color:#35586b}
